@@ -25,5 +25,12 @@
             <a href="signup.html" class="signup-button">Sign Up</a>
         </div>
     </div>
+    <script>
+        // Check URL for the error parameter and display the error message
+        const urlParams = new URLSearchParams(window.location.search);
+        if (urlParams.has('error')) {
+            document.getElementById('Invalid username or password').style.display = 'block';
+        }
+    </script>
 </body>
 </html>

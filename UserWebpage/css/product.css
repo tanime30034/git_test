@@ -1,0 +1,144 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logout {
+    padding: 5px 10px;
+    font-size: 16px;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: hsl(0, 0%, 25%);
+    padding: 0px;
+    margin: 0px;
+    overflow: auto;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: hsl(0, 0%, 10%);
+
+}
+.navbar li{
+    float: left;
+}
+
+.content-container {
+    display: flex;
+    gap: 20px; /* Space between the boxes */
+    padding: 20px;
+}
+
+/* Adjust the width of each box */
+.content-container .box {
+    flex: 1; /* Allows both boxes to take equal space, or adjust this for different sizes */
+    max-width: 500px; /* Sets a max width to control the box size */
+}
+
+
+.box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    width: 100%;
+    margin: 20px 0 20px 0
+}
+.box h2 {
+    margin-top: 0;
+}
+
+.box .title{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+.box .form{
+    width:100%;
+}
+.box .form .input_field{
+    display: flex;
+    align-items: center; /* Align label and input vertically */
+    margin-bottom: 15px;
+}
+.box .form .input_field label{
+    width: 40%; /* Adjust width as needed */
+    margin-right: 10px; /* Space between label and input */
+    text-align: left; /* Align label text to the right */
+}
+.button-primary {
+    padding: 5px 10px;
+    border: none;
+    background-color: #333;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button-primary:hover {
+    background-color: hsl(0, 0%, 20%);
+}
+
+
+.search {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.search-input {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.search-button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #333;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.product-list {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+}
+
+.product-details {
+    margin-top: 15px;
+}
+
+.product-details table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.product-details th, .product-details td {
+    padding: 8px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+.product-details th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.product-details tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
