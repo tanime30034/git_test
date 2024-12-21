@@ -1,0 +1,172 @@
+body {
+    background-image: url(''); /* Replace with your desired image URL */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #333; 
+}
+.card {
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.hover-zoom:hover img {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.btn-outline-primary {
+    border: 2px solid #007bff;
+    color: #007bff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-outline-primary:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+footer {
+    background-color: rgba(255, 255, 255, 0.8); /* Matches card transparency */
+}
+
+
+  /*MyPet(navbar) style*/
+.navbar-brand 
+{
+    font-family: 'Oxygen', sans-serif; /* Same font as login button */
+    color: black; /* Black text */
+    font-weight: bold; /* Bold text */
+    font-size: 1.5rem; /* Increase font size */
+    text-decoration: none; /* Remove underline */
+    padding-left: 10px; /* Adjust padding to separate from icon */
+}
+
+/* Icon Style */
+.navbar-brand img 
+{
+    vertical-align: middle; /* Align icon vertically with text */
+    margin-right: 10px; /* Space between icon and brand text */
+}
+
+/* Navbar List style*/
+.nav-link 
+{
+  color: black; /* Default color (dark gray or black) */
+  font-weight: bold;
+  font-size: 2.5 rem;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+.nav-link:hover 
+{
+  background-color: orange; /* White background on hover */
+  color: white; /* Orange text color on hover */
+}
+
+/* Login Button */
+.btn-login {
+    background-color: #f59c42; /* Orange background */
+    color: #fff; /* White text */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.btn-login:hover {
+    background-color: #fff; /* Darker orange on hover */
+    color:#f4861f;
+}
+
+/* Slider Area */
+.slider_area {
+    background: linear-gradient(135deg, #f9e5d7, #f59c42);
+    padding: 60px 0;
+    position: relative;
+}
+
+.single_slider {
+    display: flex;
+    align-items: center;
+    min-height: 500px;
+}
+
+.slider_text h3 {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1.2;
+    color: #333;
+}
+
+.slider_text h3 span {
+    color: #f59c42;
+    font-weight: bold;
+}
+
+.slider_text p {
+    font-size: 18px;
+    color: #666;
+    margin: 20px 0;
+}
+
+.boxed-btn4 {
+    display: inline-block;
+    background: #f59c42;
+    color: #fff;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.boxed-btn4:hover {
+    background: #f4861f;
+    color: #fff;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.dog_thumb img {
+    max-width: 100%;
+    height: auto;
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+.dog_thumb img:hover {
+    transform: scale(1.2);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .slider_text h3 {
+        font-size: 36px;
+    }
+
+    .slider_text p {
+        font-size: 16px;
+    }
+
+    .dog_thumb {
+        display: none;
+    }
+
+    .single_slider {
+        justify-content: center;
+    }
+}
+
+.section_title h3 {
+color: black;
+font-family: Georgia, serif; /* Example of a serif font */
+font-weight: bold; 
+}
