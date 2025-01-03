@@ -1,0 +1,87 @@
+body {
+    padding-top: 56px; /* Adjust to match your navbar height */
+}
+.navbar-custom {
+    background-color: #512DA8; /* Dark Purple background */
+    font-weight: bold;
+}
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-nav .nav-link {
+    color: white; /* White text for all links */
+}
+.navbar-custom .navbar-nav .nav-link.active {
+    font-weight: normal; /* Highlight active link */
+}
+.navbar-custom .navbar-toggler {
+    color: white; /* White color for the toggle icon */
+    border-color: white; /* White border for the toggle button */
+}
+.text-dark-purple {
+    color: #512DA8; /* Dark Purple color */
+    font-weight: bold; /* Make the text bold */
+}
+.hero-image {
+    height: 400px;
+    object-fit: cover;
+}
+.carousel-item img {
+    height: auto; /* Adjust image height naturally */
+    max-height: 400px; /* Ensure it doesn’t exceed this value */
+    object-fit: cover; /* Maintain aspect ratio */
+}
+.carousel {
+    margin-bottom: 0px;
+}
+.card{
+    border: none;
+}
+.carousel-item img {
+    height: 300px; /* Decreased height to 300px */
+    object-fit: cover;
+}
+.option {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1;
+    max-width: 200px;
+    transition: all 0.2s ease-in-out;
+}
+.option:hover {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    transform: scale(1.05);
+}
+.footer {
+    background-color: #6a1b9a; /* Purple color */
+    color: white; /* Text color */
+    font-family: Arial, sans-serif; /* Font styling */
+    padding: 20px 0; /* Padding for spacing */
+    margin-top: 50px; /* Margin to avoid overlapping */
+    text-align: center; /* Center the text */
+}
+
+/* Footer links and icons */
+.footer a {
+    color: white; /* Link color */
+    text-decoration: none; /* Remove underline */
+    margin: 0 10px; /* Add spacing between links */
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.footer a:hover {
+    color: #ffcc00; /* Change link color on hover */
+}
+
+/* Social media icons */
+.footer .social-icons {
+    margin-top: 10px;
+}
+
+.footer .social-icons a {
+    font-size: 24px; /* Size of the icons */
+    margin: 0 15px;
+}
+
+.footer .social-icons a:hover {
+    color: #ffcc00; /* Hover effect for social icons */
+}

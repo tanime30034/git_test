@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPet</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="index1.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                <span>MyPet</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Adopt Pet</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Pet Care</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Lost & Found</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Pet Accessories</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Login Button -->
+            <a href="login.html">
+                <button class="btn btn-light" type="button" id="login">
+                    Login
+                </button>
+            </a>            
+        </div>
+    </nav>
+
+    <!-- Carousel -->
+    <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/slider_1.jpg" class="d-block w-100" alt="Slider 1">
+            </div>
+            <div class="carousel-item">
+                <img src="images/slider_2.jpg" class="d-block w-100" alt="Slider 2">
+            </div>
+            <div class="carousel-item">
+                <img src="images/slider_3.jpg" class="d-block w-100" alt="Slider 3">
+            </div>
+        </div>
+    </div>
+    <!--Cats and Dogs-->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="text-dark-purple">Find your new best friend</h2>
+            </div>
+            <div class="row justify-content-center mt-4">
+                <div class="col-md-3 col-sm-6 text-center">
+                    <div class="option">
+                        <img src="images/dog.png" alt="Dogs" class="mb-3 img-fluid" style="max-width: 100px;">
+                        <p class="text-dark">Dogs</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 text-center">
+                    <div class="option">
+                        <img src="images/cat.png" alt="Cats" class="mb-3 img-fluid" style="max-width: 100px;">
+                        <p class="text-dark">Cats</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Featured Pets-->
+    <section class="py-5">
+        <div class="container text-center">
+            <h2 class="text-dark-purple">Featured Pets</h2>
+            <div class="row mt-4">
+                <div class="col-md-3 col-sm-6">
+                    <div class="card">
+                        <img src="images/featured_1.jpg" alt="Pet 1" class="card-img-top" style="height: 200px; object-fit: cover;">
+                        <div class="card-body bg-purple text-black text-center">
+                            Pet 1
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="card">
+                        <img src="images/featured_2.jpg" alt="Pet 2" class="card-img-top" style="height: 200px; object-fit: cover;">
+                        <div class="card-body bg-purple text-black text-center">
+                            Pet 2
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="card">
+                        <img src="images/featured_3.jpg" alt="Pet 3" class="card-img-top" style="height: 200px; object-fit: cover;">
+                        <div class="card-body bg-purple text-black text-center">
+                            Pet 3
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="card">
+                        <img src="images/featured_4.jpg" alt="Pet 4" class="card-img-top" style="height: 200px; object-fit: cover;">
+                        <div class="card-body bg-purple text-black text-center">
+                            Pet 4
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-5">
+        <div class="container text-center">
+            <h2 class="text-dark-purple">Our Services</h2>
+            <div class="row justify-content-center mt-3">
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="card">
+                        <img src="images/adopt_process_1.jpg" alt="Pet 1" class="card-img-top" style="height: 200px; object-fit: cover;">
+                        <div class="card-body bg-purple text-black text-center">
+                            <h4>Adopt a Pet</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="card">
+                        <img src="images/adopt_process_2.jpg" alt="Pet 2" class="card-img-top" style="height: 200px; object-fit: cover;">
+                        <div class="card-body bg-purple text-black text-center">
+                            <h4>Find Your Pet</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="card">
+                        <img src="images/adopt_process_3.jpg" alt="Pet 3" class="card-img-top" style="height: 200px; object-fit: cover;">
+                        <div class="card-body bg-purple text-black text-center">
+                            <h4>Pet Care</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        &copy; 2024 MyPet. All rights reserved.
+    </footer>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
